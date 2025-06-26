@@ -67,12 +67,19 @@
       box-shadow: 0 0 20px #550000;
       cursor: pointer;
       transition: all 0.3s ease;
+      text-align: center;
     }
 
     .btn:hover {
       background-color: #2a2a2a;
       box-shadow: 0 0 30px #aa0000;
       transform: scale(1.05);
+    }
+
+    .card-link {
+      text-decoration: none;
+      color: inherit;
+      display: block;
     }
 
     .bg-image {
@@ -121,32 +128,41 @@
 <body>
   <h1>AnthroFaked</h1>
   <div class="grid">
-    <div class="card">
-      <div class="card-content">
-        <div class="icon">👻</div>
-        <a href="secret.html" class="btn-link">
-        <button class="btn">Secret</button>
-        </a>
+    <a href="https://www.protectedtext.com/anthrofaked" class="card-link">
+      <div class="card">
+        <div class="card-content">
+          <div class="icon">👻</div>
+          <div class="btn">Secret</div>
+        </div>
       </div>
-    </div>
-    <div class="card">
-      <div class="card-content">
-        <div class="icon">💀</div>
-        <button class="btn">Gallery</button>
+    </a>
+
+    <a href="gallery.html" class="card-link">
+      <div class="card">
+        <div class="card-content">
+          <div class="icon">💀</div>
+          <div class="btn">Gallery</div>
+        </div>
       </div>
-    </div>
-    <div class="card">
-      <div class="card-content">
-        <div class="icon">👁️</div>
-        <button class="btn">Notes</button>
+    </a>
+
+    <a href="notes.html" class="card-link">
+      <div class="card">
+        <div class="card-content">
+          <div class="icon">👁️</div>
+          <div class="btn">Notes</div>
+        </div>
       </div>
-    </div>
-    <div class="card">
-      <div class="card-content">
-        <div class="icon">🧠</div>
-        <button class="btn">Logout</button>
+    </a>
+
+    <a href="logout.html" class="card-link">
+      <div class="card">
+        <div class="card-content">
+          <div class="icon">🧠</div>
+          <div class="btn">Logout</div>
+        </div>
       </div>
-    </div>
+    </a>
   </div>
   <div class="bg-image"></div>
 </body>
